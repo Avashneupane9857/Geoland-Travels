@@ -142,7 +142,7 @@ const OurTeam = () => {
             </div>
           </div>
         </div>
-        <div className=" mt-5 w-full h-[900px] hidden md:flex">
+        <div className=" w-full h-[600px] hidden md:flex">
           <img
             className="w-full h-full object-contain"
             src={teamChart}

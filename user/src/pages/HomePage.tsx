@@ -1,4 +1,4 @@
-import { Suspense, lazy, useEffect } from "react";
+import { Suspense, lazy } from "react";
 import Faq from "../components/Faq";
 import Loading from "../components/Loading";
 import { useRecoilValue } from "recoil";

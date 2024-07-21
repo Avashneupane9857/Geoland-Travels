@@ -35,7 +35,7 @@ const TourOverview = ({ tour }: { tour: TourData }) => {
       >
         <div className="flex">
           <p className="text-[13px] font-light">From </p>&nbsp;
-          <p className="font-medium ">NPR {tour?.price}</p>
+          <p className="font-medium ">USD {tour?.price}</p>
         </div>
         <div className="border h-[45%] flex flex-col justify-around p-2 border-slate-500 rounded-lg">
           <div className="flex gap-2">
@@ -57,7 +57,7 @@ const TourOverview = ({ tour }: { tour: TourData }) => {
         </div>
         <div className="flex justify-between">
           <p>Total:</p>
-          <p>NPR {tour?.price}</p>
+          <p>USD {tour?.price}</p>
         </div>
         <button
           onClick={() => navigate("/contactus")}
